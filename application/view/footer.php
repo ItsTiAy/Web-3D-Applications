@@ -8,7 +8,7 @@
             </div>
             <div class = "navbar-text float-left social">
                 <!-- <a href = "#"><i class = "fab fa-google-plus-square fa-3x"></i></a> -->
-                <a href = "#"><i class = "fab fa-github-square fa-2x"></i></a>
+                <a href = "https://github.com/ItsTiAy/Web-3D-Applications"><i class = "fab fa-github-square fa-2x"></i></a>
             </div>
         </div>
     </nav>

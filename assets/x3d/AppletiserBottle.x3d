@@ -30,7 +30,7 @@
 							          emissiveColor="0.000 0.000 0.000"
 							          ambientIntensity="0.000"
 							          shininess="0.500"
-							          transparency="0.19999998807907104"
+							          transparency="0.3"
 							          />
 						</Appearance>
 						<IndexedFaceSet solid="false"

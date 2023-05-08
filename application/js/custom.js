@@ -160,13 +160,6 @@ function animation()
 		document.getElementById('model__' + activeModel).setAttribute('startTime', date.getTime() / 1000);
 
 		document.getElementById('animationButton').textContent = "Pause Animation";
-
-		/*
-		document.getElementById('model__' + activeModel).getAttribute('isActive').addEventListener("change", function()
-		{
-			document.getElementById('animationButton').textContent = "Start Animation";
-		});
-		*/
 	}
 }
 
