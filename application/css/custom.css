@@ -1,0 +1,246 @@
+@font-face 
+{
+    font-family: cocaColaFont;
+    src: url(../../assets/fonts/loki_cola/LOKICOLA.TTF);
+}
+
+#main
+{
+    margin: auto;
+    max-width: 1200px;
+}
+
+body 
+{
+    /*background-image: linear-gradient(to bottom, lightgreen, limegreen);*/
+    background-color: rgba(113,191,69, 0.1);
+    background-attachment: fixed;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.model3D  {
+    background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
+    border-radius: 5px;
+    border: 0px solid rgba(0, 0, 0, 1.0);
+    padding: 2px;
+    /*height: 400px;*/
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.model3DContent
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.model3D::after
+{
+    content: '';
+    display: block;
+    padding-top: 100%;
+}
+
+#modelContent
+{   
+    position: sticky;
+    top: 84px;
+    margin-bottom: 16px;
+}
+
+#buttonCard
+{
+    padding-bottom: 16px;
+}
+
+.btn-group-justified
+{
+    padding-top: 16px;
+}
+
+#cameraButtons
+{
+    padding-bottom: 0px;
+}
+
+X3D, x3d 
+{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-brand
+{
+    color: white;
+}
+
+.navbar-nav a
+{
+    color: white;
+}
+
+.logo 
+{
+    margin-top: 3px;
+}
+
+.logo h1 
+{
+    font-family: cocaColaFont; /* You don't need to repeat this for each 
+    media query as it is propagated */
+    font-size: 50px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+}
+.logo h2 
+{
+    font-family: cocaColaFont;
+    font-size: 50px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+}
+.logo h3 
+{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+}
+.logo p 
+{
+    font-size: 7px; /* You may have to tweak this to get a good fit */
+    margin-top: 22px; /* You may have to tweak this to get a good fit */
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+}
+
+#headerColor
+{
+    background-color: black;
+    margin-bottom: 16px;
+}
+
+.card, .card-header, .nav-tabs .nav-link 
+{
+    /*border-radius: 0;*/
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+.card-header
+{
+    background-color: rgba(113,191,69, 0.4)
+
+}
+
+.card-header h2
+{
+    font-weight: bold;
+}
+
+
+.nav-link
+{
+    color: white;
+}
+
+a:hover
+{
+    color: grey;
+}
+
+.nav-pills .nav-item .nav-link.active 
+{
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+div.navbar-text.float-left.copyright
+{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column 
+{
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+  
+.column img
+{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 10px;
+    background-color: unset;
+}
+
+.btn
+{
+    margin-top: 5px;
+}
+
+.fab
+{
+    color: white;
+}
+
+.navbar_coca_cola .navbar-toggler-icon 
+{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) 
+{
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) 
+{
+
+}
+
+/* Small devices (landscape phones, 576px and up */
+@media only screen and (min-width: 576px) 
+{
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) 
+{
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) 
+{
+
+}
